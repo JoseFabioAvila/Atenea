@@ -116,6 +116,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\Clasificadores.cs" />
+    <Compile Include="Models\DifinidoresDeCategoria.cs" />
+    <Compile Include="Models\DifinidoresDeIdioma.cs" />
+    <Compile Include="Models\Idioma.cs" />
+    <Compile Include="Models\Palabras.cs" />
     <Compile Include="Views\MainView.aspx.cs">
       <DependentUpon>MainView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -128,7 +134,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
