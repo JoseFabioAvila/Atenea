@@ -94,7 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="View\MainView.aspx" />
+    <Content Include="Views\MainView.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -113,21 +113,31 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ctlCategorias.cs" />
+    <Compile Include="Controllers\ctlIdiomas.cs" />
+    <Compile Include="Controllers\ctlPalabraClave.cs" />
+    <Compile Include="Controllers\ctlPalabras.cs" />
+    <Compile Include="Controllers\ctlPalabrasSC.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="View\MainView.aspx.cs">
+    <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\Clasificador.cs" />
+    <Compile Include="Models\DiferenciadorDeCategoria.cs" />
+    <Compile Include="Models\DiferenciadorDeLenguaje.cs" />
+    <Compile Include="Models\Idioma.cs" />
+    <Compile Include="Models\Palabra.cs" />
+    <Compile Include="Views\MainView.aspx.cs">
       <DependentUpon>MainView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View\MainView.aspx.designer.cs">
+    <Compile Include="Views\MainView.aspx.designer.cs">
       <DependentUpon>MainView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
