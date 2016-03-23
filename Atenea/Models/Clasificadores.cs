@@ -10,6 +10,8 @@ namespace Atenea.Models
         public int ID;
         public String Nombre;
 
+        public Clasificadores() { }
+
         public Clasificadores(int id,String nom)
         {
             this.ID = id;

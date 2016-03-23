@@ -7,5 +7,6 @@ namespace Atenea.Controllers
 {
     public class CIdiomas
     {
+        Models.Idiomas idiomas = new Models.Idiomas();
     }
 }

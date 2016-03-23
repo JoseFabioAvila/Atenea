@@ -7,5 +7,8 @@ namespace Atenea.Controllers
 {
     public class CCategorias
     {
+        Models.Categorias categorias = new Models.Categorias();
+
+
     }
 }

@@ -7,6 +7,8 @@ namespace Atenea.Models
 {
     public class Categorias : Clasificadores
     {
+        public Categorias() { }
+
         public Categorias(int id, String nom) : base(id, nom)
         {
 

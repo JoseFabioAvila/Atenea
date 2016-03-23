@@ -7,5 +7,6 @@ namespace Atenea.Controllers
 {
     public class CPalabras
     {
+        Models.Palabras palabras = new Models.Palabras();
     }
 }

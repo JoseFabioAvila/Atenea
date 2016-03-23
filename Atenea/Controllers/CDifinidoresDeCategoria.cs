@@ -7,5 +7,6 @@ namespace Atenea.Controllers
 {
     public class CDifinidoresDeCategoria
     {
+        Models.DifinidoresDeCategoria difinidoresDeIdioma = new Models.DifinidoresDeCategoria();
     }
 }

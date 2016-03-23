@@ -7,10 +7,12 @@ namespace Atenea.Models
 {
     public class DifinidoresDeCategoria : Palabras
     {
-        Categoria cat;
-        public DifinidoresDeCategoria(int id, String nom, Idiomas idioma, Categoria categoria) : base(id, nom, idioma)
+        Categorias cat;
+        public DifinidoresDeCategoria(int id, String nom, Idiomas idioma, Categorias categoria) : base(id, nom, idioma)
         {
             this.cat = categoria;
         }
+
+        public DifinidoresDeCategoria() { }
     }
 }

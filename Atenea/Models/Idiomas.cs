@@ -11,5 +11,6 @@ namespace Atenea.Models
         {
 
         }
+        public Idiomas() { }
     }
 }
