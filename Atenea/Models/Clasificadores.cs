@@ -10,7 +10,7 @@ namespace Atenea.Models
         public int ID;
         public String Nombre;
 
-        private Clasificadores(int id,String nom)
+        public Clasificadores(int id,String nom)
         {
             this.ID = id;
             this.Nombre = nom;
