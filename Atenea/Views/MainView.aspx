@@ -56,6 +56,7 @@
 </head>
 
     <body>
+        <form id="form1" runat="server">
         <div id="cuerpoPrin" class=" cuerpoPrin">
             <div id="encabezado" class="encabezado"> 
                 <div id="menu" class="menu">
@@ -73,12 +74,15 @@
             </div>
   
             <div id="cuerpo" class="cuerpo">
-                <h1>Cuerpo</h1>
+                <h1>Cuerpo<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                </h1>
             </div>
     
             <div id="piePagina" class="piePagina">
                 <h1>Pie de Pagina</h1>
             </div>
         </div>
+        </form>
     </body>
 </html>

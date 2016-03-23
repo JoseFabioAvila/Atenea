@@ -13,5 +13,12 @@ namespace Atenea
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Models.Conexion inst = new Models.Conexion();
+            int x = inst.conectar();
+            TextBox1.Text = x.ToString();
+        }
     }
 }

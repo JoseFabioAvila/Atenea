@@ -94,6 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\BDConocimiento.mdf" />
+    <Content Include="App_Data\BDConocimiento_log.ldf">
+      <DependentUpon>BDConocimiento.mdf</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -124,6 +128,7 @@
     </Compile>
     <Compile Include="Models\Categorias.cs" />
     <Compile Include="Models\Clasificadores.cs" />
+    <Compile Include="Models\Conexion.cs" />
     <Compile Include="Models\DifinidoresDeCategoria.cs" />
     <Compile Include="Models\DifinidoresDeIdioma.cs" />
     <Compile Include="Models\Idiomas.cs" />
@@ -137,9 +142,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
