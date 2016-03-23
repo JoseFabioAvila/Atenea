@@ -5,9 +5,9 @@ using System.Web;
 
 namespace Atenea.Models
 {
-    public class Idioma : Clasificadores
+    public class Idiomas : Clasificadores
     {
-        public Idioma(int id, String nom) : base(id, nom)
+        public Idiomas(int id, String nom) : base(id, nom)
         {
 
         }

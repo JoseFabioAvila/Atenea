@@ -5,9 +5,9 @@ using System.Web;
 
 namespace Atenea.Models
 {
-    public class Categoria : Clasificadores
+    public class Categorias : Clasificadores
     {
-        public Categoria(int id, String nom) : base(id, nom)
+        public Categorias(int id, String nom) : base(id, nom)
         {
 
         }
