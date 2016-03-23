@@ -9,7 +9,7 @@ namespace Atenea.Models
     {
         private int ID;
         private String Nombre;
-        private String Idioma;
+        private Idioma Idioma;
 
         public Palabras(int id, String nom, Idioma idioma)
         {
@@ -38,12 +38,12 @@ namespace Atenea.Models
             return this.Nombre;
         }
 
-        public void setIdioma(String idioma)
+        public void setIdioma(Idioma idioma)
         {
             this.Idioma = idioma;
         }
 
-        public String getIdioma()
+        public Idioma getIdioma()
         {
             return this.Idioma;
         }
