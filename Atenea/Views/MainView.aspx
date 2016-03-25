@@ -74,6 +74,7 @@
   
             <div id="cuerpo" class="cuerpo">
                 <h1>Cuerpo</h1>
+                
             </div>
     
             <div id="piePagina" class="piePagina">

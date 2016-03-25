@@ -7,11 +7,11 @@ namespace Atenea.Models
 {
     public class Palabras
     {
-        private int ID;
+        private long ID;
         private String Nombre;
         private Idiomas Idioma;
 
-        public Palabras(int id, String nom, Idiomas idioma)
+        public Palabras(long id, String nom, Idiomas idioma)
         {
             this.ID = id;
             this.Nombre = nom;
@@ -20,12 +20,12 @@ namespace Atenea.Models
 
         public Palabras() { }
 
-        public void setId(int ID)
+        public void setId(long id)
         {
-            this.ID = ID;
+            this.ID = id;
         }
 
-        public int getId()
+        public long getId()
         {
             return this.ID;
         }
